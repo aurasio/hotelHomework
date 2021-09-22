@@ -36,7 +36,7 @@ namespace hotelHomework
                     Console.WriteLine("the price per room is £{0:0.00}", roomPrice);
                     if (Convert.ToInt32(numInput) > 1)
                     {
-                        Console.WriteLine("pre discount the price is £{0:0.00}", roomPrice * Convert.ToInt32(numInput));
+                        Console.WriteLine("pre discount the price is £{0:0.00}", roomPrice * Convert.ToDouble(numInput));
                         Console.WriteLine("the discount amount is £{0:0.00}", roomPrice * Convert.ToDouble(numInput) * 0.1);
                         Console.WriteLine("post discount the price is £{0:0.00}", roomPrice * Convert.ToDouble(numInput) * 0.9);
                     }
@@ -53,9 +53,10 @@ namespace hotelHomework
                     {
                         roomPrice = 45;
                     }
+                    Console.WriteLine("the price per room is £{0:0.00}", roomPrice);
                     if (Convert.ToInt32(numInput) > 1)
                     {
-                        Console.WriteLine("pre discount the price is £{0:0.00}", roomPrice * Convert.ToInt32(numInput));
+                        Console.WriteLine("pre discount the price is £{0:0.00}", roomPrice * Convert.ToDouble(numInput));
                         Console.WriteLine("the discount amount is £{0:0.00}", roomPrice * Convert.ToDouble(numInput) * 0.1);
                         Console.WriteLine("post discount the price is £{0:0.00}", roomPrice * Convert.ToDouble(numInput) * 0.9);
                     }
@@ -72,9 +73,10 @@ namespace hotelHomework
                     {
                         roomPrice = 179;
                     }
+                    Console.WriteLine("the price per room is £{0:0.00}", roomPrice);
                     if (Convert.ToInt32(numInput) > 1)
                     {
-                        Console.WriteLine("pre discount the price is £{0:0.00}", roomPrice * Convert.ToInt32(numInput));
+                        Console.WriteLine("pre discount the price is £{0:0.00}", roomPrice * Convert.ToDouble(numInput));
                         Console.WriteLine("the discount amount is £{0:0.00}", roomPrice * Convert.ToDouble(numInput) * 0.1);
                         Console.WriteLine("post discount the price is £{0:0.00}", roomPrice * Convert.ToDouble(numInput) * 0.9);
                     }
