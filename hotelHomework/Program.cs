@@ -74,7 +74,7 @@ namespace hotelHomework
                         roomPrice = 179;
                     }
                     Console.WriteLine("the price per room is £{0:0.00}", roomPrice);
-                    if (Convert.ToInt32(numInput) > 1)
+                    if (Convert.ToInt32(numInput) > 1) 
                     {
                         Console.WriteLine("pre discount the price is £{0:0.00}", roomPrice * Convert.ToDouble(numInput));
                         Console.WriteLine("the discount amount is £{0:0.00}", roomPrice * Convert.ToDouble(numInput) * 0.1);
